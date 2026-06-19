@@ -13,7 +13,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-TERABOX_COOKIE = os.getenv("TERABOX_COOKIE", "")
+TERABOX_COOKIE = os.getenv("TERABOX_COOKIE", "YzcJcvnteHuiWv-NMZRNSQvmzUApp9bIW_jGCdN6")
 
 
 def get_terabox_client() -> TeraboxDL:
